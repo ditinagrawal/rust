@@ -1,4 +1,5 @@
 fn main() {
+    // Scalar types --> Represents a single value
     // Integer types
     let a: i8 = 10;
     let b: i16 = 200;
@@ -21,6 +22,14 @@ fn main() {
     // String type
     let l: &str = "Hello, World!";
     let m: String = String::from("Hello, World!");
+
+    // Compound types --> Represents a collection of values
+
+    // Tuple type
+    let n: (i32, f64, char) = (500, 6.4, 'a');
+
+    // Array type
+    let o: [i32; 5] = [1, 2, 3, 4, 5];
 }
 
 //? N O T E S
